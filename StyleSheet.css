@@ -1,0 +1,190 @@
+﻿body {
+	text-align: center;
+	background-image: url(bg.jpg);
+	background-repeat: repeat-x;
+	font-family: Tahoma;
+	color:#333333;
+	font-size:13px;
+	
+	}
+	
+#container {
+	position: relative;
+	margin: 0 auto;
+	width: 1450px;
+	margin-left:0PX;
+	}
+
+
+.marginto
+{
+    margin-top:5px;
+}
+
+#index-01 {
+	position:inherit;
+	 margin-left:0px;
+	top:0px;
+	width:1000px;
+	height:150px;
+	margin-left:150px;
+	
+	background-image:url(image/Elogo2.jpg)  ;
+	
+}
+#index-11 {
+	position:inherit;
+	 margin-left:0px;
+	top:0px;
+	width:1000px;
+	height:150px;
+	margin-left:150px;
+	
+	background-image:url(image/Elogo2.jpg)  ;
+	
+}
+#index-111 {
+	position:inherit;
+	 margin-left:0px;
+	top:0px;
+	width:1000px;
+	height:150px;
+	margin-left:150px;
+	
+	background-image:url(image/Elogo2.jpg)  ;
+	
+}
+#index-02 {
+	position:relative;
+
+	left:0px;
+	top:0px;
+	width:1000px;
+	height:538px;
+	background-image:url(image/index_02.jpg);
+}
+
+#index-03 {
+	position:relative;
+	left:0px;
+	top:4px;
+		
+	width:1000px;
+	/* height:72px; */
+	height:37px;
+	margin-left:150px;
+	background-color:#2B2122; 
+}
+
+#index-04 
+{
+	background-image:url('image/BG.jpg');
+	background-repeat: repeat;
+	position:relative;
+	left:0px;
+	top:0px;
+	width:1450px;
+	height:599px;
+	 
+}
+
+
+#index-044 
+{
+	background-color:#CCFFCC;
+	position:relative;
+	
+	top:0px;
+	width:725px;
+	height:200px;
+	
+	min-height: 300px;
+	
+}
+#index-05 {
+	position:relative;
+	left:0px;
+	bottom:-2px;
+	width:1000px;
+	height:50px;
+
+	 	margin-left:150px;
+	
+}
+#index-055 {
+	position:relative;
+	left:0px;
+	bottom:0px;
+
+	width:100%;
+	height:100px;
+	 background-color:#CCCCCC;
+	background-image:url(image/footer.png);
+	}
+	
+.style2 {color: #000000;
+font-weight:normal;
+}
+.style3 {
+	font-size: 20px;
+	font-family: "Century Gothic";
+	color:#FFFFFF;
+	font-weight:bold;
+}
+a:link {
+	color: #008852;
+	text-decoRation: none;
+}
+a:visited {
+	text-decoRation: none;
+	color: #008852;
+}
+a:hover {
+	text-decoRation: underline;
+	color: #FB8A3A;
+}
+a:active {
+	text-decoRation: none;
+	color: #008852;
+}
+.style7 {
+	font-size: 24px;
+	color: #008852;
+	font-family: "Century Gothic";
+	font-weight:normal;
+    text-align: left;
+}
+.style22 {
+	font-size: 24px;
+	color:#FF6600;
+	font-family: "Century Gothic";
+	font-weight:normal;
+}
+
+.style10 {
+	color: #333333;
+	font-size: 15px;
+	height: 23px;
+}
+.style13 {font-size: 13px;
+font-weight:normal;
+line-height:19px;
+}
+.style15 {color: #999999}
+.style17 {color: #333333; font-weight: normal; font-size: 12px; }
+.style18 {color: #333333; font-family:256BYTES;font-size:22px; }
+
+.style133 {font-size: 33px;
+font-weight:normal;
+line-height:19px;
+}
+
+#perfume {
+	position: relative;
+	margin: 0 auto;
+	width: 200px;
+	height:150px;
+	margin-left:0PX;
+	background-color:Fuchsia;
+	background-image:url("f1.jpg");
+	}

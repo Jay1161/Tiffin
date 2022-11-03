@@ -1,0 +1,86 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>master page</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="StyleSheet.css" rel="stylesheet" type="text/css" />
+    <link href="js-image-slider.css" rel="stylesheet" type="text/css" />
+    <script src="js-image-slider.js" type="text/javascript"></script>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+    <div id="index-01">
+    </div>
+    <div id="index-03">
+    <style>
+.style1 {font-size: 13px}
+.style2 {font-size: 14px}
+
+.drop-down-list {
+	list-style: none;
+	margin: 0 auto;
+	margin-top: 0px;
+	padding: 0;
+	position: relative;
+	z-index: 5;
+	display:inline;
+}
+
+.drop-down-list-item {
+	    padding: 2px 2px;
+            float: left;
+	        border-right: 2px solid black;
+	        border-left: 2px solid white;
+	        position: relative;
+	        font-size: 8px;
+            top: 6px;
+            left: -1px;
+            width: 151px;
+            height: 20px;
+        }
+
+
+
+
+
+        </style>
+
+<div>
+	<ul class="drop-down-list">
+		<!--<li class="drop-down-list-item" ><span class="style2"><a href="home1.aspx" style="color: white;">HOME </a></span></li>
+		<li class="drop-down-list-item"><span class="style2"><a href="PostResume.aspx" style="color: white;">Post Resume</a></li>
+          
+		
+		<li class="drop-down-list-item"><span class="style2"><a href="Career.aspx" style="color: white;">Career</a></span></li>-->
+
+     
+     <li class="drop-down-list-item"><span class="style2 style1"><a href="Home.aspx" style="color: white;">Home</a></span></li>
+     <li class="drop-down-list-item"><span class="style2 style1"><a href="LoginHome.aspx" style="color: white;">Login</a></span></li>
+        <li class="drop-down-list-item"><span class="style2 style1"><a href="Registration.aspx" style="color: white;">Register</a></span></li>
+     <li class="drop-down-list-item"><span class="style2 style1"><a href="Contactus.aspx" style="color: white;">Contact Us</a></span></li>
+    <li class="drop-down-list-item"><span class="style2 style1"><a href="Aboutus.aspx" style="color: white;">About US</a></span></li>
+       <li class="drop-down-list-item"><span class="style2 style1"><a href="ViewMenu.aspx" style="color: white;">ViewMenu</a></span></li>
+    </ul>
+</div>
+
+
+
+  </div>
+  
+    
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        <div id="index-05">
+                             Copyright © 2021 Digital Tiffin Services
+
+    </div>
+    </div>
+    </form>
+</body>
+</html>
